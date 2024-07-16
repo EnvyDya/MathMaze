@@ -1,0 +1,453 @@
+html {
+    font-family: fontGlobal;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../images/back.png);
+    background-size: cover;
+    color: white;
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  text-align: center;
+  padding: 2px;
+  padding-left: 10px; padding-right: 10px;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-name: animRegu;
+}
+
+#logo:hover {
+    animation-iteration-count: 1;
+  animation-duration: 0.6s;
+  animation-name: animationTitre;
+}
+
+.zyeux{
+    animation-iteration-count: infinite;
+    animation-duration: 70s;
+    position: absolute;
+}
+
+#y1{
+    animation-name: animY1;
+    top: 300px;
+    left: 200px
+}
+#y2{
+    animation-name: animY2;
+    top: 500px;
+    left: 1600px
+}
+#y3{
+    animation-name: animY3;
+    top: 800px;
+    left: 350px
+}
+#y4{
+    animation-name: animY4;
+    top: 550px;
+    left: 480px
+}
+#y5{
+    animation-name: animY5;
+    top: 780px;
+    left: 1350px
+}
+#y6{
+    animation-name: animY6;
+    top: 500px;
+    left: 150px
+}
+
+#thibo{
+    animation-name: animThibo;
+    top: 0px;
+    left: 0px;
+    animation-duration: 200s;
+}
+
+#thomas{
+    animation-name: animThomas;
+    top: 700px;
+    left: 30px;
+    animation-duration: 200s;
+}
+
+#clement{
+    animation-name: animClement;
+    top: 300px;
+    left: 1530px;
+    animation-duration: 200s;
+}
+
+@keyframes animThibo{
+    0%{
+        opacity: 0;
+    }
+    24.3%{
+        opacity: 0;
+    }
+    26.3%{
+        opacity: 0.6;
+    }
+    31.3%{
+        opacity: 0.6;
+    }
+    33.3%{
+        opacity: 0;
+    }
+}
+
+@keyframes animThomas{
+    0%{
+        opacity: 0;
+    }
+    
+    35%{
+        opacity: 0;
+    }
+    37%{
+        opacity: 0.6;
+    }
+    42%{
+        opacity: 0.6;
+    }
+    45%{
+        opacity: 0;
+    }
+}
+
+@keyframes animClement{
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    72%{
+        opacity: 0.6;
+    }
+    77%{
+        opacity: 0.6;
+    }
+    79%{
+        opacity: 0;
+    }
+}
+
+@keyframes animY1{
+    0%{
+        opacity: 0;
+    }
+    2%{
+        opacity: 1;
+    }
+    8%{
+        opacity: 1;
+    }
+    8.1%{
+        opacity: 0;
+    }
+    8.2%{
+        opacity: 0;
+    }
+    8.3%{
+        opacity: 1;
+    }
+    8.5%{
+        opacity: 1;
+    }
+    14.66%{
+        opacity: 1;
+    }
+    16.66%{
+        opacity: 0;
+    }
+}
+
+@keyframes animY2{
+    0%{
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    18.66%{
+        opacity: 1;
+    }
+    24%{
+        opacity: 1;
+    }
+    24.1%{
+        opacity: 0;
+    }
+    24.2%{
+        opacity: 0;
+    }
+    24.3%{
+        opacity: 1;
+    }
+    24.5%{
+        opacity: 1;
+    }
+    31.32%{
+        opacity: 1;
+    }
+    33.32%{
+        opacity: 0;
+    }
+}@keyframes animY3{
+    0%{
+        opacity: 0;
+    }
+    33.32%{
+        opacity: 0;
+    }
+    35.32%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    40.1%{
+        opacity: 0;
+    }
+    40.2%{
+        opacity: 0;
+    }
+    40.3%{
+        opacity: 1;
+    }
+    40.5%{
+        opacity: 1;
+    }
+    47.98%{
+        opacity: 1;
+    }
+    49.98%{
+        opacity: 0;
+    }
+}@keyframes animY4{
+    0%{
+        opacity: 0;
+    }
+    49.98%{
+        opacity: 0;
+    }
+    51.98%{
+        opacity: 1;
+    }
+    64.64%{
+        opacity: 1;
+    }
+    66.64%{
+        opacity: 0;
+    }
+}@keyframes animY5{
+    0%{
+        opacity: 0;
+    }
+    66.64%{
+        opacity: 0;
+    }
+    68.64%{
+        opacity: 1;
+    }
+    81.3%{
+        opacity: 1;
+    }
+    83.3%{
+        opacity: 0;
+    }
+}@keyframes animY6{
+    0%{
+        opacity: 0;
+    }
+    83.3%{
+        opacity: 0;
+    }
+    85.3%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+@keyframes animRegu{
+    0%{
+        transform: rotateY(0);
+    }
+    1%{
+        transform: rotateY(180deg);
+    }
+    2%{
+        transform: rotateY(0deg);
+    }
+    
+    20%{
+        transform: rotateX(0deg);
+    }
+    21%{
+        transform: rotateX(180deg);
+    }
+    22%{
+        transform: rotateX(0);
+    }
+    
+    40%{
+        transform: rotateY(0);
+    }
+    41%{
+        transform: rotateY(180deg);
+    }
+    42%{
+        transform: rotateY(0deg);
+    }
+    
+    60%{
+        transform: scale(1);
+    }
+    61%{
+        transform: scale(1.15);
+    }
+    62%{
+        transform: scale(1);
+    }
+    
+    80%{
+        transform: rotateX(0deg);
+    }
+    81%{
+        transform: rotateX(180deg);
+    }
+    82%{
+        transform: rotateX(0);
+    }
+}
+
+@keyframes animationTitre {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.85);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+canvas {
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    border-style: hidden;
+    border-radius: 10px
+}
+
+#crayon,
+#gomme {
+    visibility: hidden;
+    position: absolute;
+    top: 750px;
+}
+
+#gomme {
+    left: 95px;
+}
+
+#crayon {
+    left : 25px;
+}
+
+#brouillon {
+    position: absolute;
+    right: 60px;
+    background-color: white;
+}
+
+#zeGandalf {
+    position: absolute;
+    top:120px;
+    left: 0px;
+    width: 255px;
+    height: 300px;
+    visibility: hidden;
+}
+
+#laBulle {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 215px;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: red;
+    border: solid;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+#scene {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lesBoutons {
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    visibility: hidden;
+    height: 50px;
+    width: auto;
+    font-family: fontGlobal;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px; padding-right: 30px;
+}
+
+#tableauQuestions {
+    position: absolute;
+    top: 440px;
+    left:30px;
+}
+
+tr{
+    padding: 30px;
+}
+
+#fondBlanc {
+    position: absolute;
+    top: 150px;
+    left 10px;
+    background-color: white;
+    width: 480px;
+    height: 640px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: "fontGlobal";
+    src: url('modum.ttf');
+}

@@ -1,0 +1,3 @@
+Project made in 2019 by Clément BONDUELLE, Thibault BOURGEAIS and Thomas DEHEE for the final exam of "Informatique et Sciences du Numérique" course.
+
+In this game, you have to beat the game and answer math questions to access other areas. The map is proceduraly generated and everything is coded in pure HTML/CSS/JS. Unfortunately, as of today (16/07/2024), the project doesn't work anymore because of safety evolution from our browsers.
